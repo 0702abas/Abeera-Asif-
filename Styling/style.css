@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(255, 142, 127);
+    background-image: url("imgs/image.png");
+    background-position: bottom;
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
+    width: 60dvw;
+    height: 100dvh;
+    margin: auto;
 }
 
 header {
@@ -34,9 +40,26 @@ nav a:active {
     box-shadow: 0 1px 3px black;
 }
 .subHesd {
-    font-size 25px;
-    coclor: gray
+    font-size: 25px;
+    color: gray
 }
 .max {
     max-width: 60dvw;
+}
+
+
+.row {
+    display: flex;
+}
+
+.row section {
+    flex: 1;
+}
+
+.row img {
+     width: 100%;
+}
+
+.bilder img {
+    width: 30%;
 }
